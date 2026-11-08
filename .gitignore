@@ -14,3 +14,9 @@ conversations.json
 tweets.js
 articles.js
 
+# Python virtual environment and browser profiles
+.venv/
+venv/
+.browser_data/
+
+
