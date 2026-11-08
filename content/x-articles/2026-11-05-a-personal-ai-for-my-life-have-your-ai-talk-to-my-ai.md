@@ -11,14 +11,14 @@ tags:
 - research
 - ai-collaboration
 read_time: 16 min read
-cover_image: https://pbs.twimg.com/media/HWYrE9bXIAAfnoy?format=webp&name=medium
+cover_image: /assets/images/articles/HWYrE9bXIAAfnoy.webp
 ---
 
 *Originally published on [X](https://x.com/RichardKCollin2/status/2118428519147372631) on 2026-11-05*
 
 ---
 
-[![Article cover image](https://pbs.twimg.com/media/HWYrE9bXIAAfnoy?format=webp&name=medium)](/RichardKCollin2/article/2118428519147372631/media/2118428038933192704)
+[![Article cover image](/assets/images/articles/HWYrE9bXIAAfnoy.webp)](/RichardKCollin2/article/2118428519147372631/media/2118428038933192704)
 
 # A Personal AI for my life, Have your AI talk to my AI
 
@@ -253,13 +253,13 @@ The discussion is exploratory. Proposed architectures are not descriptions of sy
 
 *****Richard wrote:***** Can you make a 2000x800 png image that shows the conversation in a clear, complete and engaging way?
 
-[![](https://pbs.twimg.com/media/HWYp-yJW4AAez7O.jpg)](/RichardKCollin2/article/2118428519147372631/media/2118426833314045952)
+[![](/assets/images/articles/HWYp-yJW4AAez7O.jpg)](/RichardKCollin2/article/2118428519147372631/media/2118426833314045952)
 
 Can you make a 2000x800 png image that shows the conversation in a clear, complete and engaging way?
 
 ****Richard wrote:**** Can you make a 2000x800 png image that shows the global deliveries and services model in as much detail as you can?
 
-[![](https://pbs.twimg.com/media/HWYq2bMWUAAi-Ez.jpg)](/RichardKCollin2/article/2118428519147372631/media/2118427789225250816)
+[![](/assets/images/articles/HWYq2bMWUAAi-Ez.jpg)](/RichardKCollin2/article/2118428519147372631/media/2118427789225250816)
 
 Can you make a 2000x800 png image that shows the global deliveries and services model in as much detail as you can?
 

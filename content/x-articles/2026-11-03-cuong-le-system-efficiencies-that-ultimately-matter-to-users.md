@@ -11,14 +11,14 @@ tags:
 - research
 - ai-collaboration
 read_time: 7 min read
-cover_image: https://pbs.twimg.com/media/HWNO0bhWYAA9__8?format=webp&name=medium
+cover_image: /assets/images/articles/HWNO0bhWYAA9__8.webp
 ---
 
 *Originally published on [X](https://x.com/RichardKCollin2/status/2117623392022970817) on 2026-11-03*
 
 ---
 
-[![Article cover image](https://pbs.twimg.com/media/HWNO0bhWYAA9__8?format=webp&name=medium)](/RichardKCollin2/article/2117623392022970817/media/2117622912442064896)
+[![Article cover image](/assets/images/articles/HWNO0bhWYAA9__8.webp)](/RichardKCollin2/article/2117623392022970817/media/2117622912442064896)
 
 # Cuong Le, System Efficiencies that ultimately matter to Users
 
@@ -52,11 +52,11 @@ cover_image: https://pbs.twimg.com/media/HWNO0bhWYAA9__8?format=webp&name=medium
 
 ****OpenAI GPT created:****
 
-[![](https://pbs.twimg.com/media/HWNOOaPXIAA-zcE.jpg)](/RichardKCollin2/article/2117623392022970817/media/2117622259263152128)
+[![](/assets/images/articles/HWNOOaPXIAA-zcE.jpg)](/RichardKCollin2/article/2117623392022970817/media/2117622259263152128)
 
-[![](https://pbs.twimg.com/media/HWNOc3EXoAAdU7i.jpg)](/RichardKCollin2/article/2117623392022970817/media/2117622507519844352)
+[![](/assets/images/articles/HWNOc3EXoAAdU7i.jpg)](/RichardKCollin2/article/2117623392022970817/media/2117622507519844352)
 
-[![](https://pbs.twimg.com/media/HWNOl2tXIAACDZV.jpg)](/RichardKCollin2/article/2117623392022970817/media/2117622662042165248)
+[![](/assets/images/articles/HWNOl2tXIAACDZV.jpg)](/RichardKCollin2/article/2117623392022970817/media/2117622662042165248)
 
 Full conversation with Grok at <https://x.com/i/grok/share/04694f3861994b559296e49fb2eef192>
 

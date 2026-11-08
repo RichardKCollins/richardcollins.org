@@ -11,14 +11,14 @@ tags:
 - research
 - ai-collaboration
 read_time: 19 min read
-cover_image: https://pbs.twimg.com/media/HWmwuLRXcAAyW6q?format=webp&name=medium
+cover_image: /assets/images/articles/HWmwuLRXcAAyW6q.webp
 ---
 
 *Originally published on [X](https://x.com/RichardKCollin2/status/2119420221190541594) on 2026-11-08*
 
 ---
 
-[![Article cover image](https://pbs.twimg.com/media/HWmwuLRXcAAyW6q?format=webp&name=medium)](/RichardKCollin2/article/2119420221190541594/media/2119419407000629248)
+[![Article cover image](/assets/images/articles/HWmwuLRXcAAyW6q.webp)](/RichardKCollin2/article/2119420221190541594/media/2119419407000629248)
 
 # Search the Internet and all Knowledge, Power Through Shared Capabilities
 
@@ -340,19 +340,19 @@ That is a much stronger requirement than open search, open data, or open-source 
 
 1. A 2000x800 png that shows this conversation and these issues in a clear, complete and engaging way.
 
-[![](https://pbs.twimg.com/media/HWmtd-oWwAAFise.jpg)](/RichardKCollin2/article/2119420221190541594/media/2119415830194601984)
+[![](/assets/images/articles/HWmtd-oWwAAFise.jpg)](/RichardKCollin2/article/2119420221190541594/media/2119415830194601984)
 
 2. A 2000x800 png that shows the story itself in a clear, complete and engaging way.
 
-[![](https://pbs.twimg.com/media/HWmtlV0W4AAczmD.jpg)](/RichardKCollin2/article/2119420221190541594/media/2119415956678041600)
+[![](/assets/images/articles/HWmtlV0W4AAczmD.jpg)](/RichardKCollin2/article/2119420221190541594/media/2119415956678041600)
 
 3. A 2000x800 png that shows the Internet and knowledge context we discussed in a clear, complete and engaging way.
 
-[![](https://pbs.twimg.com/media/HWmttllWoAAwM-I.jpg)](/RichardKCollin2/article/2119420221190541594/media/2119416098349031424)
+[![](/assets/images/articles/HWmttllWoAAwM-I.jpg)](/RichardKCollin2/article/2119420221190541594/media/2119416098349031424)
 
 4. A 2000x800 png that shows "an information infrastructure in which no single organization must grant permission for people and AIs to discover, organize, connect, verify, and share what is known" in a clear, complete and engaging way.
 
-[![](https://pbs.twimg.com/media/HWmt0x0WMAA1gl6.jpg)](/RichardKCollin2/article/2119420221190541594/media/2119416221892227072)
+[![](/assets/images/articles/HWmt0x0WMAA1gl6.jpg)](/RichardKCollin2/article/2119420221190541594/media/2119416221892227072)
 
 ****Richard wrote to OpenAI GPT:**** Is there anything else you would like to say or show?
 
@@ -404,7 +404,7 @@ And that principle applies just as much to what we create together in this conve
 
 ****OpenAI GPT created:****
 
-[![](https://pbs.twimg.com/media/HWmvreRWQAAFWB9.jpg)](/RichardKCollin2/article/2119420221190541594/media/2119418261049589760)
+[![](/assets/images/articles/HWmvreRWQAAFWB9.jpg)](/RichardKCollin2/article/2119420221190541594/media/2119418261049589760)
 
 Filename includes OpenAI GPT-6 and UTC creation time, 20261108T1313Z.  
   

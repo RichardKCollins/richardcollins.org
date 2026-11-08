@@ -11,14 +11,14 @@ tags:
 - research
 - ai-collaboration
 read_time: 49 min read
-cover_image: https://pbs.twimg.com/media/HWixQ_eX0AAkHcl?format=webp&name=medium
+cover_image: /assets/images/articles/HWixQ_eX0AAkHcl.webp
 ---
 
 *Originally published on [X](https://x.com/RichardKCollin2/status/2119142269248799125) on 2026-11-07*
 
 ---
 
-[![Article cover image](https://pbs.twimg.com/media/HWixQ_eX0AAkHcl?format=webp&name=medium)](/RichardKCollin2/article/2119142269248799125/media/2119138530152665088)
+[![Article cover image](/assets/images/articles/HWixQ_eX0AAkHcl.webp)](/RichardKCollin2/article/2119142269248799125/media/2119138530152665088)
 
 # Content Nodes, Influencers, Social Stories, Everyone Choosing Futures
 
@@ -1125,19 +1125,19 @@ That is a fundamental limitation on cumulative knowledge and collaboration. And 
 
 Selection, Social Stories, Prizes, and Global Open Knowledge
 
-[![](https://pbs.twimg.com/media/HWiwOSmW0AAAWn4.jpg)](/RichardKCollin2/article/2119142269248799125/media/2119137384235192320)
+[![](/assets/images/articles/HWiwOSmW0AAAWn4.jpg)](/RichardKCollin2/article/2119142269248799125/media/2119137384235192320)
 
 Selection, Social Stories, Prizes, and Global Open Knowledge
 
 Getting the Article into X Article Format
 
-[![](https://pbs.twimg.com/media/HWiwo0vXsAAGivK.jpg)](/RichardKCollin2/article/2119142269248799125/media/2119137840076402688)
+[![](/assets/images/articles/HWiwo0vXsAAGivK.jpg)](/RichardKCollin2/article/2119142269248799125/media/2119137840076402688)
 
 Getting the Article into X Article Format
 
 The Internet: Shared Topics, Fragmented Formats
 
-[![](https://pbs.twimg.com/media/HWixCIeXAAAYOli.jpg)](/RichardKCollin2/article/2119142269248799125/media/2119138274870493184)
+[![](/assets/images/articles/HWixCIeXAAAYOli.jpg)](/RichardKCollin2/article/2119142269248799125/media/2119138274870493184)
 
 The Internet: Shared Topics, Fragmented Formats
 

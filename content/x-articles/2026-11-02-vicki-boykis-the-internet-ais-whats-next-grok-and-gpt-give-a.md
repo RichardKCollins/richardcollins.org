@@ -11,14 +11,14 @@ tags:
 - research
 - ai-collaboration
 read_time: 17 min read
-cover_image: https://pbs.twimg.com/media/HWKex8GWsAAwbAU?format=webp&name=medium
+cover_image: /assets/images/articles/HWKex8GWsAAwbAU.webp
 ---
 
 *Originally published on [X](https://x.com/RichardKCollin2/status/2117436072590258243) on 2026-11-02*
 
 ---
 
-[![Article cover image](https://pbs.twimg.com/media/HWKex8GWsAAwbAU?format=webp&name=medium)](/RichardKCollin2/article/2117436072590258243/media/2117429355601113088)
+[![Article cover image](/assets/images/articles/HWKex8GWsAAwbAU.webp)](/RichardKCollin2/article/2117436072590258243/media/2117429355601113088)
 
 # Vicki Boykis, the Internet, AIs, What's Next, Grok and GPT Give Advice
 
@@ -140,7 +140,7 @@ A practical Internet policy should start with ordinary human needs and allow man
 
 ****OpenAI GPT created:****
 
-[![](https://pbs.twimg.com/media/HWKjrf9WEAA3qx6.jpg)](/RichardKCollin2/article/2117436072590258243/media/2117434742526054400)
+[![](/assets/images/articles/HWKjrf9WEAA3qx6.jpg)](/RichardKCollin2/article/2117436072590258243/media/2117434742526054400)
 
 ****Richard wrote to OpenAI GPT:**** Would you explain that clearly and concisely in words please? Where would you put emphasis?
 
@@ -223,7 +223,7 @@ At the same time, the absolute scale remains limited. AI startups form a thin, c
 - Separate the volume of online AI commentary (skewed toward industry participants) from observed adoption and impact. Most people still experience ordinary good and tedious moments; large-scale human problems remain statistically uncommon relative to global population.
 - For product builders, the useful next mental model is narrower: design and evaluate systems with the expectation that human-generated content is no longer the default in high-engagement layers, and verify quality signals rather than assuming them.
 
-[![](https://pbs.twimg.com/media/HWKh6aYWAAAxbPu.jpg)](/RichardKCollin2/article/2117436072590258243/media/2117432799703465984)
+[![](/assets/images/articles/HWKh6aYWAAAxbPu.jpg)](/RichardKCollin2/article/2117436072590258243/media/2117432799703465984)
 
 AIs Uneven Impact: What it means for Builders like Vicki Boykis
 

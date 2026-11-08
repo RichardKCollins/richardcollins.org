@@ -11,14 +11,14 @@ tags:
 - research
 - ai-collaboration
 read_time: 8 min read
-cover_image: https://pbs.twimg.com/media/HWjOm8vWwAAvLtk?format=webp&name=medium
+cover_image: /assets/images/articles/HWjOm8vWwAAvLtk.webp
 ---
 
 *Originally published on [X](https://x.com/RichardKCollin2/status/2119171444139540867) on 2026-11-07*
 
 ---
 
-[![Article cover image](https://pbs.twimg.com/media/HWjOm8vWwAAvLtk?format=webp&name=medium)](/RichardKCollin2/article/2119171444139540867/media/2119170793212919808)
+[![Article cover image](/assets/images/articles/HWjOm8vWwAAvLtk.webp)](/RichardKCollin2/article/2119171444139540867/media/2119170793212919808)
 
 # Purpose-Based Semantic Compression, Local Renderers
 
@@ -54,7 +54,7 @@ Web traffic analytics from late 2026 indicate that Google and YouTube dominate g
 - [Most Visited Websites in the World (2026) - Siteefy](https://siteefy.com/most-visited-websites/)
 - [List of most-visited websites - Wikipedia](https://en.wikipedia.org/wiki/List_of_most-visited_websites)
 
-[![](https://pbs.twimg.com/media/HWjLVwbWYAAyQRK.jpg)](/RichardKCollin2/article/2119171444139540867/media/2119167199315124224)
+[![](/assets/images/articles/HWjLVwbWYAAyQRK.jpg)](/RichardKCollin2/article/2119171444139540867/media/2119167199315124224)
 
 ****Richard:**** Can you give the top 15 domains by bandwidth used?
 
@@ -91,7 +91,7 @@ Major tech companies (Alphabet, Meta, Netflix, Amazon, Apple, and Microsoft) con
 - [Sandvine Internet Phenomena Report 2025 | PDF - Scribd](https://www.scribd.com/document/880997959/GIPR-2025)
 - [How Much Data Does Streaming Use in 2026? | PureTalk Blog](https://www.puretalk.com/blog/how-much-data-streaming-services-use-in-2026)
 
-[![](https://pbs.twimg.com/media/HWjLcCmXMAAXsbe.jpg)](/RichardKCollin2/article/2119171444139540867/media/2119167307272368128)
+[![](/assets/images/articles/HWjLcCmXMAAXsbe.jpg)](/RichardKCollin2/article/2119171444139540867/media/2119167307272368128)
 
 ****Richard:**** I try to keep track of all computing and technologies that link to computing. Where do cell phones, search, maps and navigation, sales, and science image data fit into global bandwidth?
 
@@ -137,7 +137,7 @@ In short, the structural, informational, and scientific pillars of the internet 
 - [Mobile Website Traffic Statistics And User Data 2026 - Quantumrun](https://www.quantumrun.com/consulting/mobile-website-traffic/)
 - [Global Internet Phenomena Report 2024 | PDF | Mobile App - Scribd](https://www.scribd.com/document/984657396/2024-Global-Internet-Phenomena-Report)
 
-[![](https://pbs.twimg.com/media/HWjLjC1WwAAHR_F.jpg)](/RichardKCollin2/article/2119171444139540867/media/2119167427594338304)
+[![](/assets/images/articles/HWjLjC1WwAAHR_F.jpg)](/RichardKCollin2/article/2119171444139540867/media/2119167427594338304)
 
 ****Richard:**** If Internet users would allow themselves to be identified by purpose, much video now can probably be compressed to text and then text to animation and text to speech. The story and even much of the action and richness - would depend on the renderer quality, but the "story", "the information", "the content" would be compact, sharable, indexable, linkable.
 
@@ -157,7 +157,7 @@ The primary trade-off in this architecture is the distinction between subjective
 
 Yet, if the internet offloaded the 70% to 80% of global traffic that is purely narrative entertainment into semantic text, the network's physical capacity would be massively freed up. The heavy bandwidth could be reserved exclusively for the raw, uncompressed empirical data that actually requires it.
 
-[![](https://pbs.twimg.com/media/HWjLpo9XEAAm8do.jpg)](/RichardKCollin2/article/2119171444139540867/media/2119167540907675648)
+[![](/assets/images/articles/HWjLpo9XEAAm8do.jpg)](/RichardKCollin2/article/2119171444139540867/media/2119167540907675648)
 
 ****Richard wrote:**** I am naming the article, "Purpose-Based Semantic Compression, Local Renderers"
 
@@ -165,7 +165,7 @@ Can you make a 2000x800 png image that shows local renderers that can recreate a
 
 ****OpenAI GPT created:****
 
-[![](https://pbs.twimg.com/media/HWjOeEjXMAAHbs6.jpg)](/RichardKCollin2/article/2119171444139540867/media/2119170640691277824)
+[![](/assets/images/articles/HWjOeEjXMAAHbs6.jpg)](/RichardKCollin2/article/2119171444139540867/media/2119170640691277824)
 
 "Full" shared conversation with OpenAI GPT. "full" in quotes because it is NOT full yet.
 

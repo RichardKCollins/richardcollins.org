@@ -11,14 +11,14 @@ tags:
 - research
 - ai-collaboration
 read_time: 25 min read
-cover_image: https://pbs.twimg.com/media/HWeBRy2WQAA561v?format=webp&name=medium
+cover_image: /assets/images/articles/HWeBRy2WQAA561v.webp
 ---
 
 *Originally published on [X](https://x.com/RichardKCollin2/status/2118805320680022359) on 2026-11-06*
 
 ---
 
-[![Article cover image](https://pbs.twimg.com/media/HWeBRy2WQAA561v?format=webp&name=medium)](/RichardKCollin2/article/2118805320680022359/media/2118804292408590336)
+[![Article cover image](/assets/images/articles/HWeBRy2WQAA561v.webp)](/RichardKCollin2/article/2118805320680022359/media/2118804292408590336)
 
 # Analog Atomic Neural Nets for Learning and Exploration
 
@@ -479,13 +479,13 @@ All these images should be clear, complete and engaging.
 
 ****OpenAI GPT created:****
 
-[![](https://pbs.twimg.com/media/HWeA4xBW4AARAVc.jpg)](/RichardKCollin2/article/2118805320680022359/media/2118803862421168128)
+[![](/assets/images/articles/HWeA4xBW4AARAVc.jpg)](/RichardKCollin2/article/2118805320680022359/media/2118803862421168128)
 
-[![](https://pbs.twimg.com/media/HWeA913WkAAXQiw.jpg)](/RichardKCollin2/article/2118805320680022359/media/2118803949620727808)
+[![](/assets/images/articles/HWeA913WkAAXQiw.jpg)](/RichardKCollin2/article/2118805320680022359/media/2118803949620727808)
 
-[![](https://pbs.twimg.com/media/HWeBDUlX0AAmJbB.jpg)](/RichardKCollin2/article/2118805320680022359/media/2118804043766157312)
+[![](/assets/images/articles/HWeBDUlX0AAmJbB.jpg)](/RichardKCollin2/article/2118805320680022359/media/2118804043766157312)
 
-[![](https://pbs.twimg.com/media/HWeBJThWsAEZ85e.jpg)](/RichardKCollin2/article/2118805320680022359/media/2118804146560086017)
+[![](/assets/images/articles/HWeBJThWsAEZ85e.jpg)](/RichardKCollin2/article/2118805320680022359/media/2118804146560086017)
 
 ### === Session problems with GPT ===
 

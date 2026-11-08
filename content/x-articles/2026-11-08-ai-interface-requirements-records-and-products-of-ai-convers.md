@@ -11,14 +11,14 @@ tags:
 - research
 - ai-collaboration
 read_time: 31 min read
-cover_image: https://pbs.twimg.com/media/HWmZZ9KWEAAGBj7?format=webp&name=medium
+cover_image: /assets/images/articles/HWmZZ9KWEAAGBj7.webp
 ---
 
 *Originally published on [X](https://x.com/RichardKCollin2/status/2119394523130273961) on 2026-11-08*
 
 ---
 
-[![Article cover image](https://pbs.twimg.com/media/HWmZZ9KWEAAGBj7?format=webp&name=medium)](/RichardKCollin2/article/2119394523130273961/media/2119393770848260096)
+[![Article cover image](/assets/images/articles/HWmZZ9KWEAAGBj7.webp)](/RichardKCollin2/article/2119394523130273961/media/2119393770848260096)
 
 # AI Interface Requirements, Records and Products of AI Conversations
 
@@ -256,19 +256,19 @@ The practical answer is that you can preserve more of your work immediately with
 
 A 2000x800 png showing how the GPT minions are working now.
 
-[![](https://pbs.twimg.com/media/HWmPE-AW0AAmcdv.jpg)](/RichardKCollin2/article/2119394523130273961/media/2119382415181271040)
+[![](/assets/images/articles/HWmPE-AW0AAmcdv.jpg)](/RichardKCollin2/article/2119394523130273961/media/2119382415181271040)
 
 A 2000x800 png showing how the GPT developers ought be working
 
-[![](https://pbs.twimg.com/media/HWmPLyyXcAAzr62.jpg)](/RichardKCollin2/article/2119394523130273961/media/2119382532428886016)
+[![](/assets/images/articles/HWmPLyyXcAAzr62.jpg)](/RichardKCollin2/article/2119394523130273961/media/2119382532428886016)
 
 A 2000x800 png showing ALL the GPT objects that can be produced, and how that should be managed, preserved, accessible.
 
-[![](https://pbs.twimg.com/media/HWmPSOfWAAAlHaH.jpg)](/RichardKCollin2/article/2119394523130273961/media/2119382642944507904)
+[![](/assets/images/articles/HWmPSOfWAAAlHaH.jpg)](/RichardKCollin2/article/2119394523130273961/media/2119382642944507904)
 
 A 2000x800 png showing how GPT developers can work with their entire GPT user community so all things that GPT users might create can be shared in global open communities.
 
-[![](https://pbs.twimg.com/media/HWmPWqrXkAArM7S.jpg)](/RichardKCollin2/article/2119394523130273961/media/2119382719230611456)
+[![](/assets/images/articles/HWmPWqrXkAArM7S.jpg)](/RichardKCollin2/article/2119394523130273961/media/2119382719230611456)
 
 ****Richard wrote to OpenAI GPT :**** How did you create the 4th image? Did you first compose it in a formal layout language or work framework? Or did you just write some stuff in a semi-formal way with token ids and send it to an image creation app without logs or records?
 
@@ -1122,7 +1122,7 @@ If an AI can create a complex object from a compact description, then the actual
 
 ****OpenAI GPT produced:****
 
-[![](https://pbs.twimg.com/media/HWmZAoIW0AAyi2M.jpg)](/RichardKCollin2/article/2119394523130273961/media/2119393335706046464)
+[![](/assets/images/articles/HWmZAoIW0AAyi2M.jpg)](/RichardKCollin2/article/2119394523130273961/media/2119393335706046464)
 
 Share link to Richard's conversation with GPT (**GPT session app does not share it completely**):
 

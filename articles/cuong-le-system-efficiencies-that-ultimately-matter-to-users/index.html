@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuong Le, System Efficiencies that ultimately matter to Users - Richard Collins</title>
+  <meta name="description" content="Cuong Le, System Efficiencies that ultimately matter to Users">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20width=%22100%22%20height=%22100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  <link rel="stylesheet" href="/style.css">
+  <meta property="og:title" content="Cuong Le, System Efficiencies that ultimately matter to Users">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="/assets/images/articles/HWNO0bhWYAA9__8.webp">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="/" class="brand">Richard Collins</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#projects">Projects</a></li>
+          <li><a href="/articles/" class="active">Articles</a></li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container article-page">
+    <nav class="breadcrumb-nav">
+      <a href="/articles/" class="breadcrumb-link">← All Articles</a>
+    </nav>
+
+    <article class="article-detail">
+      <header class="article-header">
+        <div class="article-meta-top">
+          <time datetime="2026-11-03T08:22:00Z">Nov 03, 2026</time>
+          <span class="meta-dot">·</span><span class="read-time">7 min read</span>
+          <span class="meta-dot">·</span>
+        <a href="https://x.com/RichardKCollin2/status/2117623392022970817" class="original-link" target="_blank" rel="noopener">
+          Originally published on X ↗
+        </a>
+        </div>
+        <h1 class="article-title">Cuong Le, System Efficiencies that ultimately matter to Users</h1>
+        <div class="article-author">
+          <span>By <strong>Richard Collins</strong> (@RichardKCollin2)</span>
+        </div>
+      </header>
+
+      
+        <div class="article-cover-wrapper">
+          <img src="/assets/images/articles/HWNO0bhWYAA9__8.webp" alt="Cuong Le, System Efficiencies that ultimately matter to Users" class="article-cover-img">
+        </div>
+
+      <div class="article-content">
+        <p><em>Originally published on <a href="https://x.com/RichardKCollin2/status/2117623392022970817">X</a> on 2026-11-03</em></p>
+<hr />
+<p><a href="/RichardKCollin2/article/2117623392022970817/media/2117622912442064896"><img alt="Article cover image" src="/assets/images/articles/HWNO0bhWYAA9__8.webp" /></a></p>
+<h1 id="cuong-le-system-efficiencies-that-ultimately-matter-to-users">Cuong Le, System Efficiencies that ultimately matter to Users</h1>
+<p>7 min read</p>
+<p><strong><em>*Cuong Le:</em></strong>* I spent 3 months benchmarking and digging into the internals of Loki, Elasticsearch, OpenSearch, ClickStack, SigNoz and VictoriaLogs, and condensed it into a 20-minute read.TL;DR: I realized who ingests fastest is only one side of the story. Every fast number had a price.I x.com/valyala/status…</p>
+<p><strong><em>*Grok:</em></strong>* <a href="https://x.com/cuongleqq">@cuongleqq</a>, VictoriaLogs core maintainer, summarizes a 3-month benchmark of structured Kubernetes log ingestion across VictoriaLogs, Loki, Elasticsearch, OpenSearch, SigNoz, and ClickStack on identical hardware.Loki topped ingestion at 139k lines/s by indexing only labels and storing raw text, trading off for slow field-based queries that require full decompression and scans.VictoriaLogs reached 120k lines/s using the least memory and disk while delivering fast queries via columnar storage per field, though its edge is strongest on structured logs rather than plain text.</p>
+<p><strong><em>*Richard:</em></strong>* Did Cuong Le survey actual users to see how these dimensions of storage, bandwidth and response times affected the system wide results?</p>
+<p><strong><em>*Grok:</em></strong><em> No. Cuong Le did not survey actual users for this work.The benchmark (detailed in his VictoriaMetrics blog post and the public GitHub repo) is a controlled, reproducible technical evaluation. It ran six systems (VictoriaLogs, Loki, Elasticsearch, OpenSearch, SigNoz, ClickStack) in single-node mode on identical 8-vCPU/32 GB Kubernetes nodes, feeding them synthetic structured Kubernetes-style logs (≈930 bytes/line, 30–40 fields, simulating ~5,000 streams). It measured maximum sustained ingestion rates, CPU, memory, disk space, disk writes, and some query performance after loading data.There is no mention of user surveys, interviews, questionnaires, production telemetry from customers, or empirical studies of how storage/bandwidth/response-time differences played out in real deployments or affected “system-wide results.” The motivation stated is that users frequently ask which tool fits which use case (and what they would gain by switching), so the team published controlled numbers plus explanations of the internal trade-offs (e.g., Loki’s label-only indexing vs. columnar storage, indexing cost vs. query speed, disk amplification). Query concurrency, multi-node/cluster behavior, object storage, and unstructured logs are explicitly noted as future work.Anecdotal user comments appear elsewhere (Reddit, Hacker News, other independent benchmarks), but they are not part of this study and were not systematically collected by Cuong Le for it. The results are best treated as precise lab measurements of design trade-offs on a specific workload, not as a survey of real-world system-wide impact.</em><em>Sources linked in the saved Grok response:</em>* <a href="https://victoriametrics.com/blog/structured-log-ingestion-benchmark/">VictoriaMetrics benchmark</a>; <a href="https://github.com/VictoriaMetrics/logs-benchmark">Benchmark harness</a>.</p>
+<p><strong><em>*Richard:</em></strong>* It seems that logging users and asking them, and having open channels for them to give feedback and suggestions and work on new things is better then remote workers guessing at the actual uses of a system.</p>
+<p><strong><em>*Grok:</em></strong><em> User feedback is valuable and often better than pure developer speculation for understanding real workloads, pain points, and priorities. Controlled benchmarks and open user channels serve different purposes and work best together rather than as substitutes. VictoriaMetrics maintains public channels specifically for this: a community Slack (with dedicated logs channels), GitHub issues and PRs (including “help wanted” labels), virtual meetups, and conference interactions where they explicitly collect feedback for the roadmap. Their case studies and community posts also include real-user reports of storage, CPU, and query behavior. The benchmark itself was motivated by users repeatedly asking which tool fits which use case.That said, a synthetic benchmark is not mainly “guessing.” It isolates variables (identical hardware, fixed log shape, ramped rates, cold caches) so differences in ingestion rate, memory, disk amplification, and query latency can be attributed to design choices rather than to uncontrolled production factors. Those numbers are hard to get cleanly from user reports alone, which tend to be self-selected, incomplete, and confounded by collectors, networks, retention policies, and concurrent load. Users can still run the public harness themselves on their own data.The practical gap is that the published write-up does not include a systematic survey or production telemetry study of how the measured storage/bandwidth/response-time differences actually affected end-to-end systems. Open channels reduce the “remote guessing” problem, but they do not automatically turn every technical comparison into an evidence-based account of real-world impact. Both approaches are useful; neither fully replaces the other.</em><em>Sources linked in the saved Grok response:</em>* <a href="https://victoriametrics.com/blog/structured-log-ingestion-benchmark/">VictoriaMetrics benchmark</a>; <a href="https://github.com/VictoriaMetrics/VictoriaLogs">VictoriaLogs source code</a>.</p>
+<p><strong><em>*Richard:</em></strong>* Documenting and sharing current validated benchmarks on actual systems is necessary. It is good he is doing this. But it is the whole system that matters. My complaint about most software on the Internet is that the developers and promoters never actually talk to user. Before you say they do, look closely and most of the innovators mostly talk to a next layer of developers who might talk to users, or more developer layers.</p>
+<p><strong><em>*Grok:</em></strong>* The critique is fair on both counts: isolated component numbers are incomplete without system-level effects, and developer-to-developer communication layers are a real filter that often replaces direct contact with the people whose work or outcomes are affected.In observability and infrastructure software the primary customers are usually platform teams, SREs, and observability engineers rather than the application developers who emit the logs or the business teams that consume the insights. VictoriaMetrics case studies (Spotify, Grammarly, MongoDB, etc.) quote those platform and observability roles; their public Slack and GitHub channels are likewise dominated by the same layer. That is not unusual—most open-source infrastructure projects work this way—but it means feedback about storage cost, query latency, or ingestion rate is still one or two hops removed from the full workflow (log emission, collection, network, retention, dashboard load, incident response, and the decisions those tools support).Controlled benchmarks remain useful for the narrow claims they make: under a fixed hardware budget and a defined log shape, what are the relative costs of different storage and indexing designs. They do not, and in this case do not claim to, measure how those differences propagate through a real pipeline or change team behavior. Publishing the harness openly lets other engineers test closer to their own conditions, which is better than pure assertion, but it still leaves the system-wide and multi-layer feedback problem unaddressed.The broader pattern you describe is common across infrastructure tooling: maintainers talk most readily to the engineers who operate the software, those engineers talk to the teams who write applications, and the original operational or product goals can become attenuated. Open channels and case studies reduce the distance; they do not eliminate the layers.</p>
+<p><strong><em>*Richard:</em></strong>* If you look at "database" or "open software" as a node on the Internet (I do for the Internet Foundation), it is a hierarchical structure with one top, horizontal links, but many many layers downward. Any person or group in open projects can insert themselves into pipelines and dependency chains (or attempt to).</p>
+<p><strong><em>*Grok:</em></strong><em> Open-source software ecosystems do form graphs that are hierarchical in practice while remaining open at the edges.A package or database is a node. Direct dependents are few; transitive dependents are often many layers deep. GitHub and ecosystem data routinely show projects with tens of direct dependencies and hundreds to thousands of total packages once the full tree is resolved. Control concentrates at the maintainer of each node (who merges, releases, and sets defaults), while anyone can fork the node, wrap it, replace it, or insert an intermediate component into the path that leads to it. Horizontal links exist—shared standards, compatible protocols, competing implementations—but they do not remove the depth of the dependency trees.That structure is exactly what allows the layering you described earlier. Between an application that emits logs and a storage system such as VictoriaLogs sit collectors, processors, proxies, Kubernetes sidecars, network hops, and dashboard layers. Any of those can be introduced, replaced, or extended by a different group without the original maintainers’ involvement. The same openness that lets people insert themselves into the chain also multiplies the filters between the people who design a component and the people whose systems or outcomes are affected by it.For a database treated as one node, the practical consequence is that its measured properties (ingestion rate, disk amplification, query latency) can be altered, amplified, or hidden by every layer above and below it. The graph is open enough for new nodes to appear, yet deep enough that most participants never interact with the original maintainers or the ultimate consumers of the data.</em><em>Source linked in the saved Grok response:</em>* <a href="https://github.blog/security/supply-chain-security/understand-your-softwares-supply-chain-with-githubs-dependency-graph/">GitHub dependency graph</a>.</p>
+<p><strong><em>*Richard wrote to OpenAI GPT:</em></strong>* Can you make three 2000x800 pngs?</p>
+<ol>
+<li>The user side of this system showing up to 6 billion Internet users who might touch the software in some fashion. A corporation using tools will have internal staff and vendor. All of them should be able to see ONE system map of the whole.</li>
+<li>Paths and systems that connect users to developers. When developers make "user communities", they tend to devolve to "only themselves".</li>
+<li>The developers and testing, the whole side of "software and system development". It has devolved to "insiders only" and the users are almost completely excluded. And data on real users is mostly inaccessible, because the developers do not listen and make changes.</li>
+</ol>
+<p><strong><em>*OpenAI GPT created:</em></strong>*</p>
+<p><a href="/RichardKCollin2/article/2117623392022970817/media/2117622259263152128"><img alt="" src="/assets/images/articles/HWNOOaPXIAA-zcE.jpg" /></a></p>
+<p><a href="/RichardKCollin2/article/2117623392022970817/media/2117622507519844352"><img alt="" src="/assets/images/articles/HWNOc3EXoAAdU7i.jpg" /></a></p>
+<p><a href="/RichardKCollin2/article/2117623392022970817/media/2117622662042165248"><img alt="" src="/assets/images/articles/HWNOl2tXIAACDZV.jpg" /></a></p>
+<p>Full conversation with Grok at <a href="https://x.com/i/grok/share/04694f3861994b559296e49fb2eef192">https://x.com/i/grok/share/04694f3861994b559296e49fb2eef192</a></p>
+<p>Full conversation with OpenAI GPT at <a href="https://chatgpt.com/share/6ae9edf8-7d64-83e9-9202-2579afb3f71c">https://chatgpt.com/share/6ae9edf8-7d64-83e9-9202-2579afb3f71c</a></p>
+      </div>
+
+      <footer class="article-footer-nav">
+        <div class="article-nav-links">
+          <a href="/articles/vicki-boykis-the-internet-ais-whats-next-grok-and-gpt-give-a/" class="btn-link">← Vicki Boykis, the Internet, AIs, What&#x27;s ...</a>
+          <a href="/articles/sirui-lu-delphiscience-the-internet/" class="btn-link">Sirui Lu, Delphi.Science, The Internet... →</a>
+        </div>
+        <div class="article-footer-author">
+          <p><strong>Richard Collins</strong> is exploring open distributed systems, physical modeling, and global knowledge networks.</p>
+          <p><a href="/articles/">Explore more publications</a> or connect on <a href="https://x.com/RichardKCollin2" target="_blank" rel="noopener">X (@RichardKCollin2)</a>.</p>
+        </div>
+      </footer>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Richard Collins &middot; <a href="/">richardcollins.org</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>

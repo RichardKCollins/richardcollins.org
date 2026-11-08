@@ -11,14 +11,14 @@ tags:
 - research
 - ai-collaboration
 read_time: 31 min read
-cover_image: https://pbs.twimg.com/media/HWoMEhLXYAApCVo?format=webp&name=medium
+cover_image: /assets/images/articles/HWoMEhLXYAApCVo.webp
 ---
 
 *Originally published on [X](https://x.com/RichardKCollin2/status/2119520148520685698) on 2026-11-08*
 
 ---
 
-[![Article cover image](https://pbs.twimg.com/media/HWoMEhLXYAApCVo?format=webp&name=medium)](/RichardKCollin2/article/2119520148520685698/media/2119519846396289024)
+[![Article cover image](/assets/images/articles/HWoMEhLXYAApCVo.webp)](/RichardKCollin2/article/2119520148520685698/media/2119519846396289024)
 
 # Mining Communities? or Growing Fields of Knowledge?
 
@@ -650,13 +650,13 @@ Those outcomes need not be mutually exclusive, but which one governs decisions t
 
 ****OpenAI GPT created:****
 
-[![](https://pbs.twimg.com/media/HWoD2EpWsAIjSuk.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119510802126254082)
+[![](/assets/images/articles/HWoD2EpWsAIjSuk.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119510802126254082)
 
 ****Richard wrote to OpenAI GPT:**** Please make a 2000x800 png that shows the activities in an organization using many categories of members and another organization that treats every member as a member.
 
 ****OpenAI GPT created:****
 
-[![](https://pbs.twimg.com/media/HWoEx6ZWMAAaHP2.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119511830166908928)
+[![](/assets/images/articles/HWoEx6ZWMAAaHP2.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119511830166908928)
 
 ****Richard wrote to OpenAI GPT:**** Is there anything you would particularly like to say or show after considering what we have been talking about? It can be anything at all.
 
@@ -782,29 +782,29 @@ All five are independent PNG files with matching title, filename, and provenance
 
 GPT suggested The greatest loss is not hidden information. It is work that never happens. - OpenAI GPT-6 - 20261108T1936Z.png
 
-[![](https://pbs.twimg.com/media/HWoI0I7XYAA-UN9.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119516266473938944)
+[![](/assets/images/articles/HWoI0I7XYAA-UN9.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119516266473938944)
 
 GPT suggested Even removing every paywall would not solve the underlying problem. - OpenAI GPT-6 - 20261108T1936Z.png
 
-[![](https://pbs.twimg.com/media/HWoI7GWWUAActLP.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119516386040893440)
+[![](/assets/images/articles/HWoI7GWWUAActLP.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119516386040893440)
 
 GPT suggested A system I would build: an open network of needs, capabilities, evidence, and work. - OpenAI GPT-6 - 20261108T1936Z.png
 
-[![](https://pbs.twimg.com/media/HWoJCA0WkAEF87L.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119516504815210497)
+[![](/assets/images/articles/HWoJCA0WkAEF87L.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119516504815210497)
 
 GPT suggested I would change what organizations measure. - OpenAI GPT-6 - 20261108T1936Z.png
 
-[![](https://pbs.twimg.com/media/HWoJJdoXIAATGLf.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119516632808628224)
+[![](/assets/images/articles/HWoJJdoXIAATGLf.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119516632808628224)
 
 GPT suggested One last observation about AIs. - OpenAI GPT-6 - 20261108T1936Z.png
 
-[![](https://pbs.twimg.com/media/HWoJQtEXIAAoqpb.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119516757211684864)
+[![](/assets/images/articles/HWoJQtEXIAAoqpb.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119516757211684864)
 
 ****Richard wrote to OpenAI GPT:**** Would you make one 2000x800 png image that captures all of what you put into these five? I like the way you put the image(s) and then explained, and then listed the clear filenames for "click to download". You could make the panel for the list of filenames a the bottom go all the way across not fixed where these long file names are chopped.
 
 ****OpenAI GPT created:****
 
-[![](https://pbs.twimg.com/media/HWoKvrmWAAAvD_T.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119518388904919040)
+[![](/assets/images/articles/HWoKvrmWAAAvD_T.jpg)](/RichardKCollin2/article/2119520148520685698/media/2119518388904919040)
 
 Shared conversation with OpenAI GPT As of 8 Nov 2026, the OpenAI "share links lead to incomplete datasets. Not everything that happened in the conversation in a usable form:
 

@@ -11,14 +11,14 @@ tags:
 - research
 - ai-collaboration
 read_time: 27 min read
-cover_image: https://pbs.twimg.com/media/HWPacf3XcAARt5O?format=webp&name=medium
+cover_image: /assets/images/articles/HWPacf3XcAARt5O.webp
 ---
 
 *Originally published on [X](https://x.com/RichardKCollin2/status/2117778334721483151) on 2026-11-03*
 
 ---
 
-[![Article cover image](https://pbs.twimg.com/media/HWPacf3XcAARt5O?format=webp&name=medium)](/RichardKCollin2/article/2117778334721483151/media/2117776432919179264)
+[![Article cover image](/assets/images/articles/HWPacf3XcAARt5O.webp)](/RichardKCollin2/article/2117778334721483151/media/2117776432919179264)
 
 # Sirui Lu, Delphi.Science, The Internet
 
@@ -479,7 +479,7 @@ And I would revise my earlier conclusion accordingly: your central recommendatio
 
 ****OpenAI GPT created:****
 
-[![](https://pbs.twimg.com/media/HWPVkmYWcAASf1L.jpg)](/RichardKCollin2/article/2117778334721483151/media/2117771074548953088)
+[![](/assets/images/articles/HWPVkmYWcAASf1L.jpg)](/RichardKCollin2/article/2117778334721483151/media/2117771074548953088)
 
 ****Richard wrote to OpenAI GPT:**** I did say "a few".
 
@@ -489,11 +489,11 @@ And I would revise my earlier conclusion accordingly: your central recommendatio
 
 ****OpenAI GPT created:****
 
-[![](https://pbs.twimg.com/media/HWPXwnoW4AAc4B8.jpg)](/RichardKCollin2/article/2117778334721483151/media/2117773480066211840)
+[![](/assets/images/articles/HWPXwnoW4AAc4B8.jpg)](/RichardKCollin2/article/2117778334721483151/media/2117773480066211840)
 
-[![](https://pbs.twimg.com/media/HWPX2CxXYAA-O7G.jpg)](/RichardKCollin2/article/2117778334721483151/media/2117773573251096576)
+[![](/assets/images/articles/HWPX2CxXYAA-O7G.jpg)](/RichardKCollin2/article/2117778334721483151/media/2117773573251096576)
 
-[![](https://pbs.twimg.com/media/HWPX70CXEAAPuRU.jpg)](/RichardKCollin2/article/2117778334721483151/media/2117773672375062528)
+[![](/assets/images/articles/HWPX70CXEAAPuRU.jpg)](/RichardKCollin2/article/2117778334721483151/media/2117773672375062528)
 
 ****Richard wrote to OpenAI GPT:**** I said MPI (Max Planck Institute) but I see it is Max Planck Society and Max Planck Institute of Quantum Optics. Optics is OK but it has to include atom and particle optics, and all frequencies, and gravity. Photonics and down to gluons now.
 
