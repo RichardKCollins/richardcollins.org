@@ -552,13 +552,20 @@ async def cmd_export(
             return
         with open(file_path, "r", encoding="utf-8") as f:
             raw_lines = [line.strip() for line in f if line.strip() and not line.startswith("#")]
+        cleaned_urls = []
+        for line in raw_lines:
+            # Strip bullet markers like '- ', '* ', '1. '
+            cleaned = re.sub(r"^(?:[-*]|\d+\.)\s*", "", line).strip()
+            if cleaned.startswith("http"):
+                cleaned_urls.append(cleaned)
         items_to_export = [{
             "url": url,
             "title": "Queued Article",
             "date": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
             "status": "pending"
-        } for url in raw_lines]
+        } for url in cleaned_urls]
         print(f"Loaded {len(items_to_export)} URLs from {urls_file}")
+
     else:
         if not MANIFEST_FILE.exists():
             print(f"❌ Manifest not found at {MANIFEST_FILE}. Run scan first or pass --url / --urls-file.")
