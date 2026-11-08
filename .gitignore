@@ -3,3 +3,14 @@ Thumbs.db
 node_modules/
 .env
 *.log
+
+# Raw unredacted data exports and staging (prevent accidental commits)
+raw_exports/
+content_staged/
+*.zip
+*.tar.gz
+*.tgz
+conversations.json
+tweets.js
+articles.js
+
